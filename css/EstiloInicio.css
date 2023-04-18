@@ -1,0 +1,76 @@
+/** ESTILOS INICIO**/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #258D72;  
+      
+   }
+
+   main{
+
+    
+margin-top: 200px;
+margin-right: 200px;
+margin-left: 200px;
+height: 400px;
+
+}
+
+h1{
+
+    text-align: center;
+    color: white;
+}
+
+.turist{
+
+width: 350px;
+
+
+}
+
+.dd{
+
+    text-align: center;
+}
+
+.btn{
+
+background-color: grey;
+text-align: center;
+margin-right: 400px;
+margin-left: 400px;
+margin-top: 30px;
+height: 70px;
+}
+
+.ini{
+
+    background-color: blue;
+margin-left: 50px;
+margin-right: 50px;
+height: 70px;
+
+ 
+}
+
+a{
+
+    font-size: 26px;
+background-color: white;
+display: block;
+text-align: center;
+margin-top: 20px;
+text-decoration: none;
+padding: 20px 0;
+font-weight: bold;
+margin-left: 250px;
+margin-right: 250px;
+}

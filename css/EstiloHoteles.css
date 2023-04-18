@@ -1,0 +1,656 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal{
+    
+    height: 720px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+ 
+}
+
+.principal h1{
+
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 50px;
+color: white;
+z-index: 1;
+
+
+}
+
+.principal h4{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 1;
+
+    font-size: 22px;
+
+    color: white;
+    z-index: 1;
+ 
+
+}
+
+
+
+.barra2{
+background-color: aqua;
+   height: 100%;
+   width: 100%;
+position: absolute;
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/hotel-exterior.jpg);
+
+
+background-size: cover;
+background-position: center;
+}
+
+.top2{
+
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top2 img{
+
+    width: 30px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.top2 h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+.barra2 h1{
+
+font-family: 'Montserrat', sans-serif;
+color: white;
+font-weight: 700;
+margin-top: 520px;
+margin-left: 100px;
+
+}
+
+.top2:hover{
+    transform: scale(1.25);
+}
+
+.top2 a{
+
+    width: 33%;
+    height: 100%;
+    display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+}
+
+.hotelesMain{
+
+ 
+    height: 2500px;
+
+
+    display: flex;
+    flex-direction: column;
+    
+    
+ 
+    
+    }
+    
+    .Hotelessec{
+    
+   
+    margin-top: 100px;
+    height: 700px;
+    display: flex;
+    background-color: #E4E4E4;
+
+    flex-direction: row;
+
+    gap: 50px;
+
+    
+    }
+
+    .Hotelessec2{
+    
+   
+        margin-top: 100px;
+        height: 700px;
+        display: flex;
+    
+        flex-direction: row;
+    
+        gap: 50px;
+    
+        
+        }
+
+        .Hotelessec3{
+    
+   
+            margin-top: 100px;
+            height: 700px;
+            display: flex;
+        
+            flex-direction: row;
+
+            background-color: #E4E4E4;
+        
+            gap: 50px;
+        
+            
+            }
+
+    .imgHotel{
+
+
+width: 900px;
+height: 100%;
+display: flex;
+flex-direction: column;
+
+justify-content: center;
+align-items: center;
+padding-left: 100px;
+    }
+
+    .imgHotel figcaption{
+
+        padding-bottom: 15px;
+ align-self: flex-start;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+ font-size: 20px;
+    }
+
+    .imgHotel img{
+
+       max-width: 650px;
+       max-height: 550px;
+       
+    }
+
+
+    .text{
+
+       
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        margin-right: 200px;
+        justify-content: center;
+        text-align: justify;
+      
+    }
+
+    .disfruta {
+
+        height: 900px;
+    
+    }
+    
+    .disfruta h4 {
+    
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 1;
+    
+        font-size: 22px;
+    }
+    
+    .disfruta h1 {
+    
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 50px;
+    
+    }
+    
+    .lugares2 {
+    
+    
+        height: 350px;
+        margin: 0 100px;
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    
+    
+    }
+    
+    .foto1-1 {
+    
+        height: 650px;
+    
+    
+        background-image: url(../img/suchi2.png);
+        background-size: cover;
+        background-position: center;
+    
+        position: relative;
+    }
+    
+    .foto1-1hover {
+    
+        display: none;
+    
+        background-color: rgba(36, 141, 114, 0.4);
+        height: 650px;
+    
+    
+    
+    
+    
+    
+    }
+    
+    .foto1-1hover h1 {
+    
+        color: white;
+        font-size: 44px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding-top: 280px;
+        animation-duration: 0.5s;
+    
+    
+    }
+    
+    
+    .foto1-1:hover .foto1hover {
+    
+        display: block;
+    
+    }
+    
+    
+    
+    .seccion1 a {
+    
+        text-decoration: none;
+    }
+    
+    .foto2-2 {
+    
+        height: 650px;
+        background-image: url(../img/apaneca2.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+    .foto2-2hover {
+    
+        display: none;
+    
+        background-color: rgba(107, 133, 190, 0.4);
+        height: 650px;
+    
+    
+    
+    
+    }
+    
+    .foto2-2hover h1 {
+    
+        color: white;
+        font-size: 44px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding-top: 280px;
+        animation-duration: 0.5s;
+    }
+    
+    
+    .foto2-2:hover .foto2hover {
+    
+        display: block;
+    }
+    
+    
+    .foto3-3 {
+    
+        height: 650px;
+        background-image: url(../img/centro.png);
+        background-size: cover;
+        background-position: right;
+        position: relative;
+    }
+    
+    .foto3-3hover {
+    
+        display: none;
+    
+        background-color: rgba(241, 157, 52, 0.4);
+        height: 650px;
+    
+    
+    
+    
+    
+    }
+    
+    .foto3-3hover h1 {
+    
+        color: white;
+        font-size: 44px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding-top: 280px;
+        animation-duration: 0.5s;
+    }
+    
+    
+    .foto3-3:hover .foto3hover {
+    
+        display: block;
+    }
+    
+    .foto4 {
+    
+        height: 650px;
+        background-image: url(../img/sanata\ ana.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+    .foto4hover {
+    
+        display: none;
+    
+        background-color: rgba(200, 241, 52, 0.2);
+        height: 650px;
+    
+    
+    
+    
+    
+    }
+    
+    .foto4hover h1 {
+    
+        color: white;
+        font-size: 44px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding-top: 280px;
+        animation-duration: 0.5s;
+    }
+    
+    
+    .foto4:hover .foto4hover {
+    
+        display: block;
+    }
+    
+
+    .minicaja {
+
+        background-color: white;
+        height: 60px;
+        width: 80%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+        bottom: -40px;
+        margin: 0 40px;
+    }
+    
+    .minicaja h2 {
+    
+        color: #248D72;
+    }
+    
+
+    .lugares {
+
+
+        height: 350px;
+        margin: 0 100px;
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    
+    
+    }
+    
+    .foto1 {
+    
+        height: 650px;
+    
+        background-image: url(../img/freesurf_day_1_isa_ben_reed-4-scaled.jpg);
+        background-size: cover;
+    }
+    
+    .foto1hover {
+    
+        display: none;
+    
+        background-color: rgba(36, 141, 114, 0.4);
+        height: 650px;
+    
+    
+    
+    
+    
+    
+    }
+    
+    .foto1hover h1 {
+    
+        color: white;
+        font-size: 44px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding-top: 280px;
+        animation-duration: 0.5s;
+    
+    
+    }
+    
+    
+    .foto1:hover .foto1hover {
+    
+        display: block;
+    
+    }
+    
+    
+    
+    .seccion1 a {
+    
+        text-decoration: none;
+    }
+    
+    .foto2 {
+    
+        height: 650px;
+        background-image: url(../img/la-mejor-foto-de-tu-vida.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .foto2hover {
+    
+        display: none;
+    
+        background-color: rgba(107, 133, 190, 0.4);
+        height: 650px;
+    
+    
+    
+    
+    }
+    
+    .foto2hover h1 {
+    
+        color: white;
+        font-size: 44px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding-top: 280px;
+        animation-duration: 0.5s;
+    }
+    
+    
+    .foto2:hover .foto2hover {
+    
+        display: block;
+    }
+    
+    .foto2:hover .foto1hover {
+    
+        display: block;
+    }
+    
+    .foto3 {
+    
+        height: 650px;
+        background-image: url(../img/Centro_H1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .foto3hover {
+    
+        display: none;
+    
+        background-color: rgba(241, 157, 52, 0.4);
+        height: 650px;
+    
+    
+    
+    
+    
+    }
+    
+    .foto3hover h1 {
+    
+        color: white;
+        font-size: 44px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding-top: 280px;
+        animation-duration: 0.5s;
+    }
+    
+    
+    .foto3:hover .foto3hover {
+    
+        display: block;
+    }
+    
+    .foto3:hover .foto3hover {
+    
+        display: block;
+    }
+  
+    .PieFinal {
+
+        background-color: #248D72;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 65% 35%;
+     
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    .SubPie {
+    
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 50px;
+    
+    }
+    
+    .SubPie img {
+        width: 30px;
+        height: 40px;
+        margin: 0 5px;
+    
+    }
+    
+    .SubPie2 {
+    
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 20px;
+        grid-gap: 50px;
+    }
+    
+    .SubPie2 p {
+    
+        text-align: center;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+    
+    
+    }
+    
+    .SubPie2 img {
+        width: 30px;
+        height: 30px;
+    
+    }
+    
+    .SubPie2 img:hover {
+    
+        transform: scale(1.25);
+    }
+    
+    
+    
+    .div2 a:hover {
+        color: #248D72;
+    
+        transform: scale(1.25);
+    
+    
+    }
+
+    h2 {
+
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
